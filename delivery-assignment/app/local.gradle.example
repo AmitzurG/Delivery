@@ -1,0 +1,16 @@
+android {
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'DIRECTIONS_API_URL', '"https://maps.googleapis.com/maps/api/directions/"'
+            buildConfigField 'String', 'ROADS_API_URL', '"https://roads.googleapis.com/v1/snapToRoads"'
+            buildConfigField 'String', 'GOOGLE_KEY_NAME', '"api_key"'
+            buildConfigField 'String', 'GOOGLE_KEY_VALUE', '"<paste-your-google-api-key-here>"'
+        }
+        release {
+            buildConfigField 'String', 'DIRECTIONS_API_URL', '"https://maps.googleapis.com/maps/api/directions/"'
+            buildConfigField 'String', 'ROADS_API_URL', '"https://roads.googleapis.com/v1/snapToRoads"'
+            buildConfigField 'String', 'GOOGLE_KEY_NAME', '"api_key"'
+            buildConfigField 'String', 'GOOGLE_KEY_VALUE', '"<paste-your-google-api-key-here>"'
+        }
+    }
+}

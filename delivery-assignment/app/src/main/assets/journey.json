@@ -1,0 +1,102 @@
+[
+    {
+        "type": "navigate_to_pickup",
+        "state": "active",
+        "geo": {
+            "address": "Shenkin Street 10, Tel Aviv-Yafo",
+            "latitude": 32.069803005741484,
+            "longitude": 34.7715155846415
+        }
+    },
+    {
+        "type": "pickup",
+        "state": "active",
+        "geo": {
+            "address": "Shenkin Street 10, Tel Aviv-Yafo",
+            "latitude": 32.069803005741484,
+            "longitude": 34.7715155846415
+        },
+        "parcels": [
+            {
+                "barcode": "23452598876587",
+                "display_identifier": "Nike Blazer Mid `77"
+            },
+            {
+                "barcode": "8927349874972",
+                "display_identifier": "nike air force 1"
+            },
+            {
+                "barcode": "2384798066874",
+                "display_identifier": "Adidas Yeezy Boost 350"
+            },
+            {
+                "barcode": "1823728475875",
+                "display_identifier": "Converse All Star"
+            },
+            {
+                "barcode": "9887752358753",
+                "display_identifier": "Vans Old Skool"
+            }
+        ]
+    },
+    {
+        "type": "navigate_to_drop_off",
+        "state": "active",
+        "geo": {
+            "address": "King George Street 3, Tel Aviv-Yafo",
+            "latitude": 32.070426412847546,
+            "longitude": 34.7709869846417
+        }
+    },
+    {
+        "type": "drop_off",
+        "state": "active",
+        "geo": {
+            "address": "King George Street 3, Tel Aviv-Yafo",
+            "latitude": 32.070426412847546,
+            "longitude": 34.7709869846417
+        },
+        "parcels": [
+            {
+                "barcode": "23452598876587",
+                "display_identifier": "Nike Blazer Mid `77"
+            },
+            {
+                "barcode": "2384798066874",
+                "display_identifier": "Adidas Yeezy Boost 350"
+            },
+            {
+                "barcode": "1823728475875",
+                "display_identifier": "Converse All Star"
+            }
+        ]
+    },
+    {
+        "type": "navigate_to_drop_off",
+        "state": "active",
+        "geo": {
+            "address": "Rothschild Boulevard 106, Tel Aviv-Yafo",
+            "latitude": 32.06846432496348,
+            "longitude": 34.77840232882337
+        }
+    },
+    {
+        "type": "drop_off",
+        "state": "active",
+        "geo": {
+            "address": "Rothschild Boulevard 106, Tel Aviv-Yafo",
+            "latitude": 32.06846432496348,
+            "longitude": 34.77840232882337
+        },
+        "parcels": [
+            {
+                "barcode": "8927349874972",
+                "display_identifier": "nike air force 1"
+            },
+            {
+                "barcode": "9887752358753",
+                "display_identifier": "Vans Old Skool"
+            }
+        ]
+    }
+]

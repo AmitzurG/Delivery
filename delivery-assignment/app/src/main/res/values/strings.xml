@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Courier App</string>
+    <string name="snapToRoad">Snap to road</string>
+    <string name="arrived">Arrived</string>
+    <string name="done">Done</string>
+    <string name="noParcels">No parcels.</string>
+    <string name="deliveryCompleted">Delivery completed!</string>
+</resources>
